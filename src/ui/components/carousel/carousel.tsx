@@ -26,7 +26,7 @@ export default function ImageCarousel({ images }: { images: string[]}) {
                     <Image
                         key={index}
                         src={img}
-                        width={200}
+                        width={300}
                         height={100}
                         alt={`Image ${index}`}
                         className='w-auto rounded-[10px] cursor-pointer'
@@ -76,7 +76,7 @@ export default function ImageCarousel({ images }: { images: string[]}) {
                                             <Image
                                                 src={selectedImg}
                                                 alt='Selected Image'
-                                                width={300}
+                                                width={400}
                                                 height={400}
                                                 layout='responsive'
                                             />
