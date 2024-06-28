@@ -13,10 +13,10 @@ const Logo = ({ size = 'small' }: Props) => {
             logo = <>
                 <div>
                     <Text color="secondary" tag="span" variant="lead-md">
-                        Dinero
+                        <a href="#home">Dinero</a>
                     </Text>
                     <Text color="blue" tag="span" variant="body-md">
-                        Photographie
+                        <a href="#home">Photographie</a>
                     </Text>
                 </div>
             </>
@@ -24,12 +24,14 @@ const Logo = ({ size = 'small' }: Props) => {
         case 'large':
             logo = <>
                 <div>
-                    <Text color="secondary" tag="span">
-                        Dinero
-                    </Text>
-                    <Text color="blue" tag="span" variant="body">
-                        Photographie
-                    </Text>
+                    <a href="#home">
+                        <Text color="secondary" tag="span">
+                            Dinero
+                        </Text>
+                        <Text color="blue" tag="span" variant="body">
+                            Photographie
+                        </Text>
+                    </a>
                 </div>
             </>
             break;
