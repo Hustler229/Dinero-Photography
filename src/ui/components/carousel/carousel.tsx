@@ -21,7 +21,7 @@ export default function ImageCarousel({ images }: { images: string[]}) {
     return (
         <div>
             {/* Carousel Container */}
-            <div className='flex space-x-2 overflow-x-scroll carousel-hide w-[300px]'>
+            <div className='flex space-x-2 overflow-x-scroll carousel-hide '>
                 {images && images.map((img, index) => (
                     <Image
                         key={index}
