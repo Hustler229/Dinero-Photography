@@ -38,7 +38,7 @@ import TitleComponent from "../design/title";
                 </div>
                 <div>
                     <Text variant="lead-sm" tag="span" color="secondary">
-                        Collaboré avec DINERO Photography :
+                        Collaboré avec DINERO Photographie :
                     </Text>
                     <Text variant="body-sm" color="secondary">
                         une opportunité artistique incontournable !
