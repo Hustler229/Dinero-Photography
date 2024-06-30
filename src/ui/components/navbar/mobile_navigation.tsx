@@ -14,7 +14,7 @@ const MobileNavigation = () => {
     }
     return (
         <div className="my-7">
-            <div className="flex flex-row justify-between gap-[80px] items-center fixed px-5 py-3 bg-white shadow-md overflow-hidden">
+            <div className="flex w-full fixed flex-row justify-between gap-[80px] items-center  px-5 py-3 bg-white shadow-md overflow-hidden">
                 <div>
                     <Logo />
                 </div>

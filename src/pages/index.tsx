@@ -1,5 +1,6 @@
 import Container from "@/ui/components/layout/container"
 import Navigation from "@/ui/components/navbar/navigation"
+import Icon from "@/ui/design/icon"
 import AboutComponent from "@/ui/interfaces/about"
 import FeedBackSection from "@/ui/interfaces/clientFeedback"
 import FooterSection from "@/ui/interfaces/footer"
@@ -12,15 +13,15 @@ const HomePage: React.FC = () => {
 
     return (
         <>
+            <Navigation />
             <Container>
-                <Navigation />
                 <HomeComponent />
-                <AboutComponent/>
-                <Work/>
-                <Section/>
-                <Galerie/>
-                <FeedBackSection/>
-                <FooterSection/>
+                <AboutComponent />
+                <Work />
+                <Section />
+                <Galerie />
+                <FeedBackSection />
+                <FooterSection />
             </Container>
         </>
     )

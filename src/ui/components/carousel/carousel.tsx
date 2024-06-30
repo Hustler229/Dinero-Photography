@@ -21,7 +21,7 @@ export default function ImageCarousel({ images }: { images: string[]}) {
     return (
         <div>
             {/* Carousel Container */}
-            <div className='flex space-x-6 overflow-x-scroll carousel-hide'>
+            <div className='flex space-x-2 overflow-x-scroll carousel-hide w-[300px]'>
                 {images && images.map((img, index) => (
                     <Image
                         key={index}
@@ -67,7 +67,7 @@ export default function ImageCarousel({ images }: { images: string[]}) {
                                 leaveFrom='opacity-100 scale-100'
                                 leaveTo='opacity-0 scale-95'
                             >
-                                <Dialog.Panel className='w-full max-w-[550px]  transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all'>
+                                <Dialog.Panel className=' max-w-[600px]  transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all'>
                                     {selectedImg && (
                                         <>
                                             <div className='text-primary flex items-end justify-end'>
@@ -77,7 +77,7 @@ export default function ImageCarousel({ images }: { images: string[]}) {
                                                 src={selectedImg}
                                                 alt='Selected Image'
                                                 width={400}
-                                                height={400}
+                                                height={700}
                                                 layout='responsive'
                                             />
                                         </>

@@ -6,6 +6,7 @@ import NavLink from "../components/navbar/link"
 import Logo from "../design/logo"
 import Button from "../design/button"
 import Text from "../design/typography"
+import Icon from "../design/icon"
 
 const FooterSection = () => {
     return (
@@ -25,8 +26,8 @@ const FooterSection = () => {
                 <div className="flex flex-col gap-5 justify-between items-center"  id="contact">
                     <Text variant="body-md" className="text-center">Laissez nous un message pour des collaboration</Text>
                     <div className="flex gap-5 justify-between items-center">
-                        <Button href="https://www.facebook.com/profile.php?id=100076569251213" > <FaFacebookF /> </Button>
-                    <Button href="https://wa.me/+22951837263" > <FaWhatsapp /> </Button>
+                        <Icon variant="facebook"/>
+                        <Icon variant="whatsapp"/>
                     </div>
                     
                 </div>
